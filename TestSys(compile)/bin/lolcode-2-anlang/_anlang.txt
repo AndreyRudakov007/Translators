@@ -1,0 +1,48 @@
+var a = 0
+var b = 0
+var c = 0
+var d = 0
+var var = 0
+var factorial = 1
+def gimme_that_factorial()
+while ((var==min(var,2)
+))
+factorial=(factorial*var)
+var=(var-1)
+end
+print(factorial)
+end
+def countD()
+d=((b*b)-(4*(c*a)))
+end
+def input()
+read(a)
+read(b)
+read(c)
+end
+def main()
+input
+if ((a==0))
+print(1)
+print(((0-c)/b))
+else
+countD
+if ((d==0))
+print(1)
+print(((0-b)/(2*a)))
+else
+if ((d==min(d,0)
+))
+print(2)
+d=sqrt(d)
+
+print((((0-b)+d)/(2*a)))
+print((((0-b)-d)/(2*a)))
+else
+print(0)
+end
+end
+end
+read(var)
+gimme_that_factorial
+end

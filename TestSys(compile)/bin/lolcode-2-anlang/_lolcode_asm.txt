@@ -1,0 +1,179 @@
+import "msvcrt.dll", "printf _printf"
+import "msvcrt.dll", "scanf _scanf"
+var pointer, type_ptr
+
+var variable0, type_qword
+mov variable0, 0
+
+var variable1, type_qword
+mov variable1, 0
+
+var variable2, type_qword
+mov variable2, 0
+
+var variable3, type_qword
+mov variable3, 0
+
+var variable4, type_qword
+mov variable4, 0
+
+var variable5, type_qword
+mov variable5, 4607182418800017408
+
+func function0
+Label0:
+push variable4
+push variable4
+push 4611686018427387904
+maxd
+pop bqx
+pop aqx
+cmprd aqx, bqx
+plabel EndLabel0
+jne EndLabel0
+push variable5
+push variable4
+mulsd
+pop variable5
+push variable4
+push 4607182418800017408
+subsd
+pop variable4
+jmp Label0
+EndLabel0:
+push variable5
+printd PRINT_NUMBER
+pop
+ret
+
+func function1
+push variable1
+push variable1
+mulsd
+push 4616189618054758400
+push variable2
+push variable0
+mulsd
+mulsd
+subsd
+pop variable3
+ret
+
+func function2
+lea pointer, variable0
+init_stack_dump_point
+push pointer
+push "%lg"
+jit_call_void _scanf
+lea pointer, variable1
+init_stack_dump_point
+push pointer
+push "%lg"
+jit_call_void _scanf
+lea pointer, variable2
+init_stack_dump_point
+push pointer
+push "%lg"
+jit_call_void _scanf
+ret
+
+
+
+call function2
+push variable0
+push 0
+pop bqx
+pop aqx
+cmprd aqx, bqx
+plabel EndLabel1
+jne EndLabel1
+push 4607182418800017408
+printd PRINT_NUMBER
+pop
+push 0
+push variable2
+subsd
+push variable1
+divsd
+printd PRINT_NUMBER
+pop
+plabel Label1
+jmp Label1
+EndLabel1:
+call function1
+push variable3
+push 0
+pop bqx
+pop aqx
+cmprd aqx, bqx
+plabel EndLabel2
+jne EndLabel2
+push 4607182418800017408
+printd PRINT_NUMBER
+pop
+push 0
+push variable1
+subsd
+push 4611686018427387904
+push variable0
+mulsd
+divsd
+printd PRINT_NUMBER
+pop
+plabel Label2
+jmp Label2
+EndLabel2:
+push variable3
+push variable3
+push 0
+maxd
+pop bqx
+pop aqx
+cmprd aqx, bqx
+plabel EndLabel3
+jne EndLabel3
+push 4611686018427387904
+printd PRINT_NUMBER
+pop
+push variable3
+pop aqx
+sqrtd aqx
+push aqx
+pop variable3
+push 0
+push variable1
+subsd
+push variable3
+addsd
+push 4611686018427387904
+push variable0
+mulsd
+divsd
+printd PRINT_NUMBER
+pop
+push 0
+push variable1
+subsd
+push variable3
+subsd
+push 4611686018427387904
+push variable0
+mulsd
+divsd
+printd PRINT_NUMBER
+pop
+plabel Label3
+jmp Label3
+EndLabel3:
+push 0
+printd PRINT_NUMBER
+pop
+Label3:
+Label2:
+Label1:
+lea pointer, variable4
+init_stack_dump_point
+push pointer
+push "%lg"
+jit_call_void _scanf
+call function0

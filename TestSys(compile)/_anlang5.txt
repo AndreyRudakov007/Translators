@@ -1,0 +1,21 @@
+var r = 0
+var n = 10
+var x = 1
+var y = 1
+var i = 0
+
+def getfibbonachi()
+  print(x)
+  print(y)
+  while (i<n) 
+  r=x+y 
+  y=x
+  x=r
+  i=i+1
+  print(r)
+  end
+end
+
+def main()
+getfibbonachi
+end

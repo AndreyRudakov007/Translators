@@ -1,0 +1,16 @@
+var n = 5
+var factorial = 1
+var i = 1
+
+def getfactorial()
+  while (i<n)
+    i+=1
+    factorial*=i
+  end
+end
+
+def main()
+  getfactorial
+  print(factorial)
+end
+     

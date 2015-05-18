@@ -1,0 +1,8 @@
+1 9
+FUNCS 1
+getfactorial
+VARS 3
+n
+factorial
+i
+[ 0 0 [ 8 0 [ 3 0 [ 2 5 NULL ] NULL ] [ 3 1 [ 2 1 NULL ] NULL ] [ 3 2 [ 2 1 NULL ] NULL ] NULL ] [ 1 0 [ 5 2 [ 5 4 [ 4 9 [ 3 2 NULL ] [ 3 0 NULL ] NULL ] NULL ] [ 5 5 [ 4 16 [ 3 2 NULL ] [ 2 1 NULL ] NULL ] [ 4 18 [ 3 1 NULL ] [ 3 2 NULL ] NULL ] NULL ] NULL ] NULL ] [ 6 0 [ 7 6 [ 1 0 NULL ] NULL ] [ 7 2 [ 3 1 NULL ] NULL ] NULL ] NULL ] 

@@ -1,0 +1,43 @@
+import "msvcrt.dll", "printf _printf"
+import "msvcrt.dll", "scanf _scanf"
+var pointer, type_ptr
+
+var variable0, type_qword
+mov variable0, 0
+
+var variable1, type_qword
+mov variable1, 4621819117588971520
+
+func function0
+Label0:
+push variable0
+push variable0
+push 4611686018427387904
+maxd
+pop bqx
+pop aqx
+cmprd aqx, bqx
+plabel EndLabel0
+jne EndLabel0
+push variable1
+push variable0
+mulsd
+pop variable1
+push 4607182418800017408
+pop aqx
+subd variable0, aqx
+jmp Label0
+EndLabel0:
+push variable1
+printd PRINT_NUMBER
+pop
+ret
+
+
+
+lea pointer, variable0
+init_stack_dump_point
+push pointer
+push "%lg"
+jit_call_void _scanf
+call function0

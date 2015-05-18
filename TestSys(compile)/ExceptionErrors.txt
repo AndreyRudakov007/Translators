@@ -1,0 +1,15 @@
+Exception with error code 367,
+error message: "Ast2AsmTranslator_t::Ast2AsmTranslator_t(std::string, std::string): Error occurred"
+occurred in file: "C:\ProjectsDump\Lolcode\Ast2asm\Translator.cpp" on line 59
+caused by:
+Exception with error code 367,
+error message: "TreeLoader_t::TreeLoader_t(std::string, Node_t<NodeContent_t>*): Error occurred"
+occurred in file: "C:\ProjectsDump\Lolcode\Ast2asm\TreeLoader.cpp" on line 36
+caused by:
+Exception with error code 367,
+error message: "File_t::File_t(std::string, const char*): Error occurred"
+occurred in file: "C:\ProjectsDump\Lolcode\Ast2asm\../Support.cpp" on line 90
+caused by:
+Exception with error code 361,
+error message: "Failed to open file "_tree.txt""
+occurred in file: "C:\ProjectsDump\Lolcode\Ast2asm\../Support.cpp" on line 85

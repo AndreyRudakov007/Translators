@@ -1,0 +1,20 @@
+program NoName;
+ var var, factorial : real;
+
+function gimme_that_factorial_____()
+begin
+  while(var =   ___max___(var , 2 )) do
+  begin
+    factorial := factorial * var ;
+  var  := var - 1 ;
+  end;
+  writeln(factorial );
+
+end;
+var := 0;
+factorial := 10;
+begin
+  read(var );
+  gimme_that_factorial_____();
+
+end.

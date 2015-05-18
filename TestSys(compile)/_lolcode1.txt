@@ -1,0 +1,64 @@
+HAI
+  I HAS A a 
+  I HAS A b 
+  I HAS A c 
+  I HAS A d 
+
+  I HAS A var ITZ 0
+  I HAS A factorial ITZ 1
+
+  HOW IZ I gimme_that_factorial
+  
+    IM IN YR loop NERFIN YR var WILE BOTH SAEM var AN BIGGR OF var AN 2
+      factorial R PRODUKT OF factorial AN var
+    IM OUTTA YR loop
+
+    VISIBLE factorial
+
+  IF YOU SAY SO
+
+  HOW IZ I countD
+    d R DIFF OF PRODUKT OF b AN b AN PRODUKT OF 4 AN PRODUKT OF c AN a
+  IF YOU SAY SO
+
+  HOW IZ I input
+    GIMMEH a
+    GIMMEH b
+    GIMMEH c
+  IF YOU SAY SO
+
+  OPENNG
+
+  I IZ input
+  
+  BOTH SAEM a AN 0
+  O RLY?
+  YA RLY
+    VISIBLE 1
+    VISIBLE QUOSHUNT OF DIFF OF 0 AN c AN b
+  NO WAI
+    I IZ countD
+    BOTH SAEM d AN 0
+    O RLY?
+    YA RLY
+      VISIBLE 1
+      VISIBLE QUOSHUNT OF DIFF OF 0 AN b AN PRODUKT OF 2 AN a
+    NO WAI
+      BOTH SAEM d AN BIGGR OF d AN 0
+      O RLY?
+      YA RLY
+        VISIBLE 2
+        d R SQRT OF d
+        VISIBLE QUOSHUNT OF SUM OF DIFF OF 0 AN b AN d AN PRODUKT OF 2 AN a
+        VISIBLE QUOSHUNT OF DIFF OF DIFF OF 0 AN b AN d AN PRODUKT OF 2 AN a
+      NO WAI
+        VISIBLE 0
+      OIC
+    OIC
+  OIC
+
+  GIMMEH var
+
+  I IZ gimme_that_factorial
+
+KTHXBYE

@@ -1,0 +1,16 @@
+Build: 15.5.15 22:45:45
+Parsing file "_lolcode1.txt"
+Level 1
+--------------------------------------------------
+Error: Unexpected token "i" on line 13
+                                        v
+   IM IN YR loop0 WILE BOTH OF DIFFRINT i AN n AN BOTH SAEM i AN SMALLR OF i AN n
+--------------------------------------------------
+Error: Unexpected token "x" on line 16
+           v
+       y R x
+--------------------------------------------------
+Error: Unexpected token "r" on line 17
+           v
+       x R r
+--------------------------------------------------

@@ -1,0 +1,31 @@
+HAI
+
+I HAS A r ITZ 0
+I HAS A n ITZ 10
+I HAS A x ITZ 1
+I HAS A y ITZ 1
+I HAS A i ITZ 0
+
+HOW IZ I getfibbonachi
+
+   VISIBLE x
+   VISIBLE y
+   IM IN YR loop0 WILE BOTH OF DIFFRINT i AN n AN BOTH SAEM i AN SMALLR OF i AN n
+
+       r R SUM OF x AN y
+       y R x
+       x R r
+       i R SUM OF i AN 1
+       VISIBLE r
+
+   IM OUTTA YR loop0
+
+
+IF YOU SAY SO
+
+OPENNG
+
+   I IZ getfibbonachi
+
+KTHXBYE
+

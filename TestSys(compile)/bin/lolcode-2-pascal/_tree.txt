@@ -1,0 +1,7 @@
+1 12
+FUNCS 1
+gimme_that_factorial_____
+VARS 2
+var
+factorial
+[ 0 0 [ 8 0 [ 3 0 [ 2 0 NULL ] NULL ] [ 3 1 [ 2 10 NULL ] NULL ] NULL ] [ 1 0 [ 5 2 [ 5 4 [ 4 7 [ 3 0 NULL ] [ 7 9 [ 3 0 NULL ] [ 2 2 NULL ] NULL ] NULL ] NULL ] [ 5 5 [ 4 1 [ 3 1 NULL ] [ 4 4 [ 3 1 NULL ] [ 3 0 NULL ] NULL ] NULL ] [ 4 17 [ 3 0 NULL ] [ 2 1 NULL ] NULL ] NULL ] NULL ] [ 7 2 [ 3 1 NULL ] NULL ] NULL ] [ 6 0 [ 7 1 [ 3 0 NULL ] NULL ] [ 7 6 [ 1 0 NULL ] NULL ] NULL ] NULL ]

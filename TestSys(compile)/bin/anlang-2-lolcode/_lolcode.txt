@@ -1,0 +1,24 @@
+HAI
+
+I HAS A n ITZ 5
+I HAS A factorial ITZ 1
+I HAS A i ITZ 1
+
+HOW IZ I getfactorial
+
+   IM IN YR loop0 WILE BOTH OF DIFFRINT i AN n AN BOTH SAEM i AN SMALLR OF i AN n
+
+       i R SUM OF i AN 1
+       factorial R PRODUKT OF factorial AN i
+
+   IM OUTTA YR loop0
+
+
+IF YOU SAY SO
+
+OPENNG
+
+   I IZ getfactorial
+   VISIBLE factorial
+
+KTHXBYE

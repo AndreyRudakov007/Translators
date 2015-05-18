@@ -1,0 +1,15 @@
+Exception with error code 380,
+error message: "bool Compiler_t::Compile(): Error occurred"
+occurred in file: "C:\ProjectsDump\Lolcode\Lang2Ast\Compiler.cpp" on line 72
+caused by:
+Exception with error code 380,
+error message: "void LolcodeLexicalAnalyzer_t::Process(): Error occurred"
+occurred in file: "C:\ProjectsDump\Lolcode\Lang2Ast\SyntaxAnalyzer.cpp" on line 117
+caused by:
+Exception with error code 394,
+error message: "void LolcodeLexicalAnalyzer_t::RecursiveAnalyzer(Node_t<NodeContent_t>*, std::vector<Token_t>::iterator&, Node_t<NodeContent_t>*): Error occurred"
+occurred in file: "C:\ProjectsDump\Lolcode\Lang2Ast\SyntaxAnalyzer.cpp" on line 593
+caused by:
+Exception with error code 417,
+error message: "Found unknown token"
+occurred in file: "C:\ProjectsDump\Lolcode\Lang2Ast\SyntaxAnalyzer.cpp" on line 578
